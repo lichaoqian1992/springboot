@@ -8,11 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jdbc-template" />
         <module name="jpa" />
+        <module name="mongodb" />
+        <module name="mybatis" />
+        <module name="mybatis-transactional" />
+        <module name="redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="beatlsql" target="1.8" />
       <module name="jdbc-template" target="1.8" />
       <module name="jpa" target="1.8" />
+      <module name="mongodb" target="1.8" />
+      <module name="mybatis" target="1.8" />
+      <module name="mybatis-transactional" target="1.8" />
+      <module name="redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -12,6 +12,10 @@
         <option value="$PROJECT_DIR$/mybatis-transactional/pom.xml" />
         <option value="$PROJECT_DIR$/mongodb/pom.xml" />
         <option value="$PROJECT_DIR$/redis/pom.xml" />
+        <option value="$PROJECT_DIR$/restdocs/pom.xml" />
+        <option value="$PROJECT_DIR$/swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-message/pom.xml" />
       </list>
     </option>
   </component>

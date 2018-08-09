@@ -12,6 +12,10 @@
         <module name="mybatis" />
         <module name="mybatis-transactional" />
         <module name="redis" />
+        <module name="redis-message" />
+        <module name="restdocs" />
+        <module name="spring-cache" />
+        <module name="swagger2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +26,10 @@
       <module name="mybatis" target="1.8" />
       <module name="mybatis-transactional" target="1.8" />
       <module name="redis" target="1.8" />
+      <module name="redis-message" target="1.8" />
+      <module name="restdocs" target="1.8" />
+      <module name="spring-cache" target="1.8" />
+      <module name="swagger2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

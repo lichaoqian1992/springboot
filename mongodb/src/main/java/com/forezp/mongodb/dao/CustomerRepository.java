@@ -1,6 +1,7 @@
 package com.forezp.mongodb.dao;
 
 import com.forezp.mongodb.entity.Customer;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;
 

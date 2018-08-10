@@ -16,6 +16,12 @@
         <option value="$PROJECT_DIR$/swagger2/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cache/pom.xml" />
         <option value="$PROJECT_DIR$/redis-message/pom.xml" />
+        <option value="$PROJECT_DIR$/rest-template/pom.xml" />
+        <option value="$PROJECT_DIR$/scheduling-task/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/jms/pom.xml" />
+        <option value="$PROJECT_DIR$/file-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/web-socket/pom.xml" />
       </list>
     </option>
   </component>

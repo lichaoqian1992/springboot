@@ -6,30 +6,42 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="file-upload" />
         <module name="jdbc-template" />
+        <module name="jms" />
         <module name="jpa" />
         <module name="mongodb" />
         <module name="mybatis" />
         <module name="mybatis-transactional" />
+        <module name="rabbitmq" />
         <module name="redis" />
         <module name="redis-message" />
+        <module name="rest-template" />
         <module name="restdocs" />
+        <module name="scheduling-task" />
         <module name="spring-cache" />
         <module name="swagger2" />
+        <module name="web-socket" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="beatlsql" target="1.8" />
+      <module name="file-upload" target="1.8" />
       <module name="jdbc-template" target="1.8" />
+      <module name="jms" target="1.8" />
       <module name="jpa" target="1.8" />
       <module name="mongodb" target="1.8" />
       <module name="mybatis" target="1.8" />
       <module name="mybatis-transactional" target="1.8" />
+      <module name="rabbitmq" target="1.8" />
       <module name="redis" target="1.8" />
       <module name="redis-message" target="1.8" />
+      <module name="rest-template" target="1.8" />
       <module name="restdocs" target="1.8" />
+      <module name="scheduling-task" target="1.8" />
       <module name="spring-cache" target="1.8" />
       <module name="swagger2" target="1.8" />
+      <module name="web-socket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

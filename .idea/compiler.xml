@@ -20,6 +20,7 @@
         <module name="restdocs" />
         <module name="scheduling-task" />
         <module name="spring-cache" />
+        <module name="springboot-websocket" />
         <module name="swagger2" />
         <module name="web-socket" />
       </profile>
@@ -40,6 +41,7 @@
       <module name="restdocs" target="1.8" />
       <module name="scheduling-task" target="1.8" />
       <module name="spring-cache" target="1.8" />
+      <module name="springboot-websocket" target="1.8" />
       <module name="swagger2" target="1.8" />
       <module name="web-socket" target="1.8" />
     </bytecodeTargetLevel>

@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/scheduling-task/scheduling-task.iml" filepath="$PROJECT_DIR$/scheduling-task/scheduling-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cache/spring-cache.iml" filepath="$PROJECT_DIR$/spring-cache/spring-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot.iml" filepath="$PROJECT_DIR$/.idea/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" filepath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/swagger2/swagger2.iml" filepath="$PROJECT_DIR$/swagger2/swagger2.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-socket/web-socket.iml" filepath="$PROJECT_DIR$/web-socket/web-socket.iml" />
     </modules>

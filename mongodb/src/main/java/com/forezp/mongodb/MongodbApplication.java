@@ -3,11 +3,13 @@ package com.forezp.mongodb;
 import com.forezp.mongodb.dao.CustomerRepository;
 import com.forezp.mongodb.entity.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
-public class MongodbApplication {
+public class MongodbApplication implements CommandLineRunner {
 
     @Autowired
     private CustomerRepository repository;
@@ -42,4 +44,5 @@ public class MongodbApplication {
         for (Customer customer : repository.findByLastName("Smith")) {
             System.out.println(customer);
         }
+    }
 }

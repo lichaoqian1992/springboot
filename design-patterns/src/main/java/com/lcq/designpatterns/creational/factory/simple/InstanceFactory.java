@@ -17,20 +17,22 @@ import java.util.Map;
  **/
 public class InstanceFactory {
 
-    private static Map<String, Vehicle> map;
+    private static Map<String, Object> map;
 
     static {
         map = new HashMap<>();
-        map.put("bike", new Bike());
-        map.put("car", new Car());
-        map.put("truck", new Truck());
+        map.put("bike", Bike.class);
+        map.put("car", Car.class);
+        map.put("truck", Truck.class);
     }
 
     public static Vehicle createVehicle(String type) {
         Vehicle vehicle = null;
-        Map<String, Vehicle> registeredProdects = new HashMap<>();
+        if (new Truck() instanceof  Vehicle) {
+
+        }
         if (map != null && map.get(type) instanceof Vehicle) {
-            return map.get(type).newInstance();
+            return ((Vehicle) map.get(type)).newInstance();
         }
         return vehicle;
     }

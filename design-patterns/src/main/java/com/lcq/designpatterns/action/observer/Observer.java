@@ -10,7 +10,7 @@ package com.lcq.designpatterns.action.observer;
 public interface Observer {
 
     /**
-     * 更新接口
+     * 传入主题对象，方便获取相应的主题对象的状态
      */
-    void update(String state);
+    void update(Subject subject);
 }

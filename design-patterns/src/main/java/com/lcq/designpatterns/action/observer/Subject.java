@@ -32,11 +32,10 @@ public abstract class Subject {
 
     /**
      * 通知所有注册的观察者对象
-     * @param newState
      */
-    public void notifyObservers(String newState) {
+    public void notifyObservers() {
         for (Observer observer : list) {
-            observer.update(newState);
+            observer.update(this);
         }
     }
 }
